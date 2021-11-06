@@ -1,0 +1,33 @@
+﻿.movie-item-detail{
+    display:flex;
+    position:relative;
+}
+
+.movie-body-detail{
+    background-color:#352f2f;
+    color: white;
+    padding: 32px;
+}
+
+.movie-type {
+    top: 0;
+    padding: 8px;
+    background-color: red;
+    font-weight: 600;
+    color: white;
+    position: absolute;
+}
+
+.btn-detail{
+    position:absolute;
+    top: 0;
+    right: 32px;
+}
+
+.btn-link{
+    padding: 16px;
+    background-color:forestgreen;
+    color: white;
+    border-radius: 5px;
+    width: 400px;
+}

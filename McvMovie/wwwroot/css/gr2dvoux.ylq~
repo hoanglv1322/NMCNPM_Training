@@ -1,0 +1,49 @@
+﻿
+.container-movie{
+    display: flex;
+    flex-wrap:wrap;
+    height: auto;
+    align-content:center;
+    background-color: #857c7c;
+    position:relative;
+}
+
+
+.img-movie{
+    width:100%;
+    height:300px;
+}
+
+.img-movie:hover{
+    background-size:cover;
+    cursor:pointer;
+}
+
+.movie-item{
+    width: 24%;
+    margin-right:8px;
+    margin-top:16px;
+}
+
+
+.movie-body {
+    background-color: #211414;
+    padding: 8px;
+}
+
+.movie-title{
+    color: #3192c3;
+}
+
+.movie-text{
+    color:#f7f1f1;
+}
+
+
+.movie-type{
+    top: 0;
+    padding: 8px;
+    background-color: red;
+    font-weight: 600;
+    color: white;
+}
